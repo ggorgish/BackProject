@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1= title
+  p API ცოცხალია და მუშაობს.
+  h3 ხელმისაწვდომი endpoint-ები:
+  ul
+    li POST /api/auth/register
+    li POST /api/auth/login
+    li GET /api/auth/me
+    li GET /api/tasks
+    li POST /api/tasks
+    li GET /api/tasks/:id
+    li PUT /api/tasks/:id
+    li DELETE /api/tasks/:id
+    li GET /api/tasks/stats
+  p სრული დოკუმენტაცია README.md ფაილშია.
